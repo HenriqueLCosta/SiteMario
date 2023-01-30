@@ -1,0 +1,43 @@
+
+@media (max-width: 1100px){
+    body{
+        background-color: black;
+    }
+    .fundo-video{
+        width: 97vw;
+    }
+    .container{
+        display: inline;
+        text-align: center;
+    }
+    .container img{
+        padding-top: 15px;
+        max-width: 80%;
+    }
+    .container .imagem-titulo{
+        max-width: 80%;
+    }
+
+}
+@media (max-width: 600px){
+    body{
+        background-color: #f7491b;
+    }
+    .fundo-video{
+        display: none;
+    }
+    .container .descricao{
+        color: black;
+    }
+    .container{
+        display: inline;
+        text-align: center;
+    }
+    .container img{
+        padding-top: 15px;
+        max-width: 80%;
+    }
+    .container .imagem-titulo{
+        max-width: 80%;
+    }
+}
